@@ -1,0 +1,56 @@
+{
+  "data": "simulated",
+  "train_interactions": 204262,
+  "test_interactions": 50116,
+  "users_evaluated": 3140,
+  "results": [
+    {
+      "model": "popularity",
+      "ndcg@10": 0.1782602849322455,
+      "ndcg_ci": [
+        0.17187302494076195,
+        0.18460018142427803
+      ],
+      "recall@10": 0.1510657415832575,
+      "recall_ci": [
+        0.14579451332019008,
+        0.15644597993125062
+      ],
+      "catalogue_coverage": 0.014,
+      "users_evaluated": 3140
+    },
+    {
+      "model": "item-item cosine",
+      "ndcg@10": 0.20106050645781348,
+      "ndcg_ci": [
+        0.1943798321908478,
+        0.20761699458745592
+      ],
+      "recall@10": 0.1718190779496512,
+      "recall_ci": [
+        0.16591137776766757,
+        0.17716935850773433
+      ],
+      "catalogue_coverage": 0.204,
+      "users_evaluated": 3140
+    },
+    {
+      "model": "ALS (32 factors)",
+      "ndcg@10": 0.1288448550704554,
+      "ndcg_ci": [
+        0.12365985621533719,
+        0.13401210066734562
+      ],
+      "recall@10": 0.11889988373268627,
+      "recall_ci": [
+        0.11363193180669295,
+        0.12382631306237993
+      ],
+      "catalogue_coverage": 0.5806666666666667,
+      "users_evaluated": 3140
+    }
+  ],
+  "best_model": "item-item cosine",
+  "ndcg_lift_over_popularity_pct": 12.8,
+  "coverage_multiple_over_popularity": 14.57
+}

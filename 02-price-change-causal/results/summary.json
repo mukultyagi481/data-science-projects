@@ -1,0 +1,34 @@
+{
+  "data": "simulated",
+  "true_effect_pp": 0.4,
+  "did_estimate_pp": 0.332,
+  "did_ci_pp": [
+    0.253,
+    0.41
+  ],
+  "did_p_value": 0.0,
+  "synthetic_control_effect_pp": 0.371,
+  "synthetic_control_pre_rmse_pp": 0.0245,
+  "donor_weights": {
+    "R10": 0.0649,
+    "R12": 0.2027,
+    "R13": 0.0673,
+    "R17": 0.0152,
+    "R18": 0.0245,
+    "R20": 0.0719,
+    "R21": 0.0616,
+    "R24": 0.1753,
+    "R25": 0.0801,
+    "R29": 0.0072,
+    "R31": 0.0091,
+    "R32": 0.0919,
+    "R36": 0.0239,
+    "R37": 0.1043
+  },
+  "placebo": {
+    "n_placebos": 18,
+    "placebos_at_least_as_large": 0,
+    "pseudo_p_value": 0.0526
+  },
+  "max_pre_period_event_study_effect_pp": 0.166
+}

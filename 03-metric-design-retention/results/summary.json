@@ -1,0 +1,47 @@
+{
+  "n_users": 40000,
+  "overall_90d_churn": 0.4476,
+  "recommended_primary_metric": "days_active_14d",
+  "why": {
+    "smallest_detectable_lift_pct": 0.653,
+    "auc_for_90d_retention": 0.724
+  },
+  "survival_at_90_days_by_device": {
+    "TV": 0.61,
+    "mobile": 0.5029,
+    "web": 0.5295
+  },
+  "cox_concordance": 0.6858,
+  "metric_table": [
+    {
+      "metric": "days_active_14d",
+      "mde_relative_pct_at_50k_per_arm": 0.6526,
+      "auc_retained_90d": 0.724,
+      "top_minus_bottom_pp": 54.3
+    },
+    {
+      "metric": "sessions_14d",
+      "mde_relative_pct_at_50k_per_arm": 1.3742,
+      "auc_retained_90d": 0.662,
+      "top_minus_bottom_pp": 38.275
+    },
+    {
+      "metric": "titles_14d",
+      "mde_relative_pct_at_50k_per_arm": 1.52,
+      "auc_retained_90d": 0.6224,
+      "top_minus_bottom_pp": 30.925
+    },
+    {
+      "metric": "hours_14d",
+      "mde_relative_pct_at_50k_per_arm": 2.296,
+      "auc_retained_90d": 0.6622,
+      "top_minus_bottom_pp": 40.0125
+    },
+    {
+      "metric": "watched_3_titles_14d",
+      "mde_relative_pct_at_50k_per_arm": 2.8458,
+      "auc_retained_90d": 0.5821,
+      "top_minus_bottom_pp": 20.525
+    }
+  ]
+}

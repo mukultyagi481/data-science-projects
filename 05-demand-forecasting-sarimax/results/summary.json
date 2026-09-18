@@ -1,0 +1,189 @@
+{
+  "data": "synthetic, structured like the original capstone problem",
+  "months": 132,
+  "folds": 3,
+  "horizon_months": 12,
+  "candidate_models": 15,
+  "seasonal_naive_mape": 14.38,
+  "selected_by_in_sample_r2": {
+    "drivers": "interest_rate_10_yr, consumer_confidence_index, consumer_price_index, retail_trade_vol_millions",
+    "in_sample_r2": 0.9715,
+    "backtest_mape": 16.48
+  },
+  "selected_by_backtest": {
+    "drivers": "interest_rate_10_yr",
+    "in_sample_r2": 0.852,
+    "backtest_mape": 13.86
+  },
+  "cost_of_selecting_on_r2_pct_mape": 2.62,
+  "driver_forecast_orders": {
+    "fold1:interest_rate_10_yr": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -204.9
+    },
+    "fold1:consumer_confidence_index": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -257.5
+    },
+    "fold1:consumer_price_index": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -541.5
+    },
+    "fold1:retail_trade_vol_millions": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -390.3
+    },
+    "fold2:interest_rate_10_yr": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -247.2
+    },
+    "fold2:consumer_confidence_index": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -301.8
+    },
+    "fold2:consumer_price_index": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -639.1
+    },
+    "fold2:retail_trade_vol_millions": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -452.6
+    },
+    "fold3:interest_rate_10_yr": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -287.4
+    },
+    "fold3:consumer_confidence_index": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -351.1
+    },
+    "fold3:consumer_price_index": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -732.5
+    },
+    "fold3:retail_trade_vol_millions": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "aic": -524.1
+    }
+  }
+}

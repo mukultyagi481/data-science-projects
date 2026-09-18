@@ -1,0 +1,20 @@
+{
+  "true_lift": 0.02,
+  "replications_per_cell": 400,
+  "required_n_for_80pct_power": {
+    "difference in means": 72157,
+    "CUPED": 53421,
+    "OLS adjusted": 53421
+  },
+  "sample_size_reduction_vs_difference_in_means": {
+    "difference in means": 0.0,
+    "CUPED": -26.0,
+    "OLS adjusted": -26.0
+  },
+  "peeking": {
+    "replications": 1500,
+    "false_positive_rate_fixed_horizon": 0.050666666666666665,
+    "false_positive_rate_daily_peeking": 0.22333333333333333,
+    "days_monitored": 14
+  }
+}
