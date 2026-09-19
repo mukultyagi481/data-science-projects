@@ -1,0 +1,7 @@
+check_name,failing_rows
+invoices whose total does not match its line items,0
+invoices with no line items,0
+invoice lines pointing at a missing track,0
+tracks with no genre assigned,0
+customers with no country recorded,0
+invoices dated in the future,0

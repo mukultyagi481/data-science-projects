@@ -9,10 +9,12 @@ Four self-contained projects, each answering a product question rather than demo
 | 3 | [Metric design and retention](03-metric-design-retention) | Which early metric deserves to be the primary one? | Sensitivity analysis, Kaplan–Meier, Cox model |
 | 4 | [Recommender offline evaluation](04-recommender-offline-eval) | Which model is worth testing online, and how? | Time-based split, NDCG/Recall, bootstrap, ALS, test design |
 | 5 | [Demand forecasting with SARIMAX](05-demand-forecasting-sarimax) | Does forecasting economic drivers improve a demand forecast? | SARIMAX, exogenous regressors, rolling-origin backtesting, model selection |
+| 6 | [Forecasting real data](06-forecasting-real-data) | Can any model beat "assume no change" on a real series? | Real data, MASE, Diebold-Mariano tests, ETS, SARIMA |
+| 7 | [SQL analytics](07-sql-analytics) | Six business questions answered in SQL | CTEs, window functions, cohorts, NTILE, data-quality checks |
 
 ## A note on the data
 
-Projects 1, 2, 3, and 5 run on simulated data. That is a deliberate choice, not a shortcut: simulation is the only way to know the true effect and therefore the only way to check whether an estimator is biased or its intervals are honest. Each README says plainly which numbers come from simulation. Projects 2 and 4 also accept real data (a regional panel CSV, or MovieLens) through a command-line flag, and running them on real data is the natural next step.
+Projects 1, 2, 3, and 5 run on simulated data. Project 6 uses real published price and inflation data; project 7 uses a standard public sample database. That is a deliberate choice, not a shortcut: simulation is the only way to know the true effect and therefore the only way to check whether an estimator is biased or its intervals are honest. Each README says plainly which numbers come from simulation. Projects 2 and 4 also accept real data (a regional panel CSV, or MovieLens) through a command-line flag, and running them on real data is the natural next step.
 
 ## How to work through these
 

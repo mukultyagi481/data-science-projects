@@ -1,0 +1,28 @@
+Country,genre_rank,genre,genre_revenue,pct_of_country
+Brazil,1,Rock,80.19,42.2
+Brazil,2,Latin,52.47,27.6
+Brazil,3,Metal,14.85,7.8
+Canada,1,Rock,105.93,34.8
+Canada,2,Latin,59.4,19.5
+Canada,3,Metal,39.6,13.0
+Czech Republic,1,Rock,24.75,27.4
+Czech Republic,2,TV Shows,15.92,17.6
+Czech Republic,3,Drama,11.94,13.2
+France,1,Rock,64.35,33.0
+France,2,Alternative & Punk,30.69,15.7
+France,3,Latin,25.74,13.2
+Germany,1,Rock,61.38,39.2
+Germany,2,Metal,24.75,15.8
+Germany,3,Latin,17.82,11.4
+India,1,Rock,24.75,32.9
+India,2,Alternative & Punk,10.89,14.5
+India,3,Jazz,9.9,13.2
+Portugal,1,Rock,30.69,39.7
+Portugal,2,Latin,12.87,16.7
+Portugal,3,Metal,10.89,14.1
+USA,1,Rock,155.43,29.7
+USA,2,Latin,90.09,17.2
+USA,3,Metal,63.36,12.1
+United Kingdom,1,Rock,36.63,32.5
+United Kingdom,2,Latin,30.69,27.2
+United Kingdom,3,Metal,19.8,17.5
